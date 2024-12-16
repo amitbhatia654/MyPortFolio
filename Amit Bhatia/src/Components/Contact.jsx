@@ -4,16 +4,16 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 export default function Contact() {
   return (
     <>
-      <h2 className="text-center text-white fw-bold mt-5">CONTACT DETAILS</h2>
+      <h2 className="text-center text-white fw-bold m-5">CONTACT DETAILS</h2>
 
       <div className="container contact-div">
         <div className="row">
           <div className="col-md-6 p-4">
             <h2 className="fw-bold text-center ">Get In Touch </h2>
-            <p className="m-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
-              officiis necessitatibus error! Aperiam dolore sed natus maiores,
-              nostrum necessitatibus aliquid?
+            <p className="m-3 px-3">
+              I’d love to hear from you! Whether you have a project in mind, a
+              question, or just want to connect, feel free to reach out. I’m
+              always open to new opportunities and collaborations.
             </p>
 
             <div className="d-flex m-2">
@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="col-md-6  p-4  ">
-            <h2 className="fw-bold text-center ">ReachOut </h2>
+            <h2 className="fw-bold text-center ">Let &apos;s Connect </h2>
             <form>
               <div className="form-group">
                 <label htmlFor="exampleInputEmail1">Name</label>
@@ -67,9 +67,7 @@ export default function Contact() {
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
                 />
-                {/* <small id="emailHelp" className="form-text text-dark">
-                  We'll never share your email with anyone else.
-                </small> */}
+                
               </div>
               <div className="form-group">
                 <label htmlFor="exampleInputPassword1">Phone</label>
@@ -91,15 +89,13 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-              <button type="submit" className="btn btn-warning mt-3">
+              <button type="button" className="btn btn-warning mt-3">
                 Send Message
               </button>
             </form>
           </div>
         </div>
       </div>
-
-      
     </>
   );
 }

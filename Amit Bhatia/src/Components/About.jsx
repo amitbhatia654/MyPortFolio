@@ -13,8 +13,8 @@ import chakraIcon from "../../chakraui.jpeg";
 
 export default function About() {
   return (
-    <div className="mt-5">
-      <h2 className="text-center text-white fw-bold "> ABOUT </h2>
+    <div className="">
+      <h2 className="text-center text-white fw-bold m-4"> ABOUT </h2>
       <div className=" container mt-3 about-container p-4">
         <p className="text-center fs-5 about-para">
           I am a passionate website and software developer belongs to Kanpur
@@ -32,7 +32,7 @@ export default function About() {
       </div>
 
       <div className="container mt-5">
-        <h2 className="text-center text-white fw-bold my-4">SKILLS</h2>
+        <h2 className="text-center text-white fw-bold my-5">SKILLS</h2>
         <div className="d-flex flex-wrap justify-content-center  py-2 ">
           <div className="skill-box py-3 m-3">
             <img src={htmlIcon} alt="" width={"70px"} height={"70px"} />

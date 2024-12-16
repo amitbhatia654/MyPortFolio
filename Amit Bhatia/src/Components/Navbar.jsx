@@ -14,13 +14,15 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = ["/", "about", "Experience", "Projects", "Contact"];
 
 export default function Navbar(props) {
   const navigate = useNavigate();
+  const location = useLocation();
+
   //   const store = useStore();
 
   // eslint-disable-next-line react/prop-types
@@ -42,10 +44,19 @@ export default function Navbar(props) {
         >
           <ListItemButton sx={{ textAlign: "center" }}>
             {item === "/" ? (
-              <ListItemText primary="Home" onClick={() => navigate("/")} />
+              <ListItemText
+                primary="Home"
+                className={
+                  location.pathname == '/' ? "active-menu" : ""
+                }
+                onClick={() => navigate("/")}
+              />
             ) : (
               <ListItemText
                 primary={item}
+                className={
+                  location.pathname.split("/")[1] == item ? "active-menu" : ""
+                }
                 onClick={() => navigate(`/${item}`)}
               />
             )}
@@ -82,14 +93,7 @@ export default function Navbar(props) {
               variant="h5"
               component="div"
               sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-            >
-              {/* <span
-                
-              >
-                {" "}
-                Amit Bhatia1
-              </span> */}
-            </Typography>
+            ></Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => {
                 if (item === "/") {
@@ -97,7 +101,9 @@ export default function Navbar(props) {
                     <Button
                       key={item}
                       sx={{ color: "#fff" }}
-                      className="my-2"
+                      // className={
+                      //   location.pathname == "/" ? "active-menu my-2" : "my-2"
+                      // }
                       onClick={() => navigate("/")}
                     >
                       Home
@@ -108,9 +114,15 @@ export default function Navbar(props) {
                   <Button
                     key={item}
                     sx={{ color: "#fff" }}
+                    className={
+                      location.pathname.split("/")[1] == item
+                        ? "active-menu"
+                        : ""
+                    }
                     onClick={() => navigate(`/${item}`)}
                   >
                     {item}
+                    {console.log(location, "llll")}
                   </Button>
                 );
               })}

@@ -1,4 +1,3 @@
-// import * as React from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -17,16 +16,15 @@ import DvrIcon from "@mui/icons-material/Dvr";
 export default function Experience() {
   return (
     <Timeline position="alternate">
-      <h2 className="text-center text-white fw-bold my-5">
+      <h2 className="text-center text-white fw-bold m-5">
         EDUCATION & WORK EXPERIENCE
       </h2>
-      <div className="education-box" >
+      <div className="education-box">
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
             align="right"
             variant="body2"
-            color="text.secondary"
           >
             2016 - 2019
           </TimelineOppositeContent>
@@ -37,13 +35,11 @@ export default function Experience() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "25px", px: 2 }}>
+          <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h5" component="span">
               Bachelor of Computer Applications (BCA)
             </Typography>
-            <Typography>
-              Dayanand Academy of Management Studies,Kanpur
-            </Typography>
+
             <Typography>
               Chhatrapati Shahu Ji Maharaj University,Kanpur
             </Typography>
@@ -51,11 +47,7 @@ export default function Experience() {
         </TimelineItem>
 
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="text.secondary"
-          >
+          <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body2">
             2020 - 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -65,12 +57,9 @@ export default function Experience() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "25px", px: 2 }}>
+          <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h5" component="span">
               MBA (Information Technology)
-            </Typography>
-            <Typography>
-              Dayanand Academy of Management Studies,Kanpur
             </Typography>
 
             <Typography>
@@ -84,7 +73,6 @@ export default function Experience() {
             sx={{ m: "auto 0" }}
             align="right"
             variant="body2"
-            color="text.secondary"
           >
             Dec 2021 - July 2022
           </TimelineOppositeContent>
@@ -95,7 +83,7 @@ export default function Experience() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "25px", px: 2 }}>
+          <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h5" component="span">
               Web Development Internship (6 Months)
             </Typography>
@@ -104,11 +92,7 @@ export default function Experience() {
         </TimelineItem>
 
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="text.secondary"
-          >
+          <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body2">
             Sep 2022 - Feb 2023
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -118,7 +102,7 @@ export default function Experience() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "25px", px: 2 }}>
+          <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h5" component="span">
               MERN Stack developer (6 Months)
             </Typography>
@@ -131,7 +115,6 @@ export default function Experience() {
             sx={{ m: "auto 0" }}
             align="right"
             variant="body2"
-            color="text.secondary"
           >
             June 2023 - Aug 2024
           </TimelineOppositeContent>
@@ -142,7 +125,7 @@ export default function Experience() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "25px", px: 2 }}>
+          <TimelineContent sx={{ py: "35px", px: 2 }}>
             <Typography variant="h5" component="span">
               Frontend Developer (1.2 Years)
             </Typography>
@@ -151,11 +134,7 @@ export default function Experience() {
         </TimelineItem>
 
         <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="text.secondary"
-          >
+          <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body2">
             Aug 2024 - Present
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -165,7 +144,7 @@ export default function Experience() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "25px", px: 2 }}>
+          <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h5" component="span">
               Freelancing Website Development
             </Typography>
