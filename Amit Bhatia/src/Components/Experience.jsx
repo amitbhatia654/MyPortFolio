@@ -116,7 +116,7 @@ export default function Experience() {
             align="right"
             variant="body2"
           >
-            June 2023 - Aug 2024
+            April 2023 - Sep 2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -127,7 +127,7 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "35px", px: 2 }}>
             <Typography variant="h5" component="span">
-              Frontend Developer (1.2 Years)
+              Frontend Developer (1.5 Years)
             </Typography>
             <Typography>Sahind Technologies,Noida</Typography>
           </TimelineContent>
