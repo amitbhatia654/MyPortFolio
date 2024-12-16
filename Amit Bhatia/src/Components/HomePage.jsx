@@ -89,7 +89,7 @@ export default function HomePage() {
                 <a
                   href="/amit_bhatia.pdf"
                   target="_blank"
-                  // rel="noopener noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <button className="btn btn-warning mx-2">Resume</button>
                 </a>
