@@ -82,14 +82,14 @@ export default function HomePage() {
               <div className="text-center mt-4">
                 <button
                   className="btn btn-warning"
-                  onClick={() => navigate("/contact")}
+                  onClick={() => navigate("/Contact")}
                 >
                   Contact Me
                 </button>
                 <a
                   href="/amit_bhatia.pdf"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  // rel="noopener noreferrer"
                 >
                   <button className="btn btn-warning mx-2">Resume</button>
                 </a>
