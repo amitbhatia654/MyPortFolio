@@ -87,7 +87,7 @@ export default function Navbar(props) {
               <span
                 className="fw-bold fs-1 text-white mt-1"
                 style={{
-                  textShadow: "1px 3px 2px yellow",
+                  textShadow: "1px 3px 2px black",
                   display: "inline-block",
                 }}
               >
