@@ -85,8 +85,11 @@ export default function Navbar(props) {
                 <MenuIcon />
               </IconButton>
               <span
-                className="fw-bold fs-1 text-warning"
-                style={{ textShadow: "1px 3px 2px black" }}
+                className="fw-bold fs-1 text-white mt-1"
+                style={{
+                  textShadow: "1px 3px 2px yellow",
+                  display: "inline-block",
+                }}
               >
                 Amit Bhatia
               </span>
