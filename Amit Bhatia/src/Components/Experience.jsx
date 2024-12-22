@@ -74,7 +74,7 @@ export default function Experience() {
             align="right"
             variant="body2"
           >
-            Dec 2021 - July 2022
+            Feb 2021 - July 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -116,7 +116,7 @@ export default function Experience() {
             align="right"
             variant="body2"
           >
-            April 2023 - Sep 2024
+            Jan 2023 - Aug 2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -127,9 +127,9 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "35px", px: 2 }}>
             <Typography variant="h5" component="span">
-              Frontend Developer (1.5 Years)
+              Frontend Developer- React js (8 Months)
             </Typography>
-            <Typography>Sahind Technologies,Noida</Typography>
+            <Typography>Sartia Global Pvt Ltd, Noida</Typography>
           </TimelineContent>
         </TimelineItem>
 
