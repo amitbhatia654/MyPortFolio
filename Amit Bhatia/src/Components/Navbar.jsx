@@ -46,9 +46,7 @@ export default function Navbar(props) {
             {item === "/" ? (
               <ListItemText
                 primary="Home"
-                className={
-                  location.pathname == '/' ? "active-menu" : ""
-                }
+                className={location.pathname == "/" ? "active-menu" : ""}
                 onClick={() => navigate("/")}
               />
             ) : (
@@ -86,7 +84,12 @@ export default function Navbar(props) {
               >
                 <MenuIcon />
               </IconButton>
-              <span className="fw-bold fs-2 text-">Amit Bhatia</span>
+              <span
+                className="fw-bold fs-1 text-warning"
+                style={{ textShadow: "1px 3px 2px black" }}
+              >
+                Amit Bhatia
+              </span>
             </div>
 
             <Typography
@@ -101,9 +104,9 @@ export default function Navbar(props) {
                     <Button
                       key={item}
                       sx={{ color: "#fff" }}
-                      // className={
-                      //   location.pathname == "/" ? "active-menu my-2" : "my-2"
-                      // }
+                      className={
+                        location.pathname == "/" ? "active-menu my-2" : "my-2"
+                      }
                       onClick={() => navigate("/")}
                     >
                       Home

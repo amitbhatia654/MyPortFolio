@@ -36,7 +36,7 @@ export default function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
-            <Typography variant="h5" component="span">
+            <Typography variant="h6" component="span" color="white">
               Bachelor of Computer Applications (BCA)
             </Typography>
 
@@ -58,7 +58,7 @@ export default function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
-            <Typography variant="h5" component="span">
+            <Typography variant="h6" component="span" color="white">
               MBA (Information Technology)
             </Typography>
 
@@ -84,7 +84,7 @@ export default function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
-            <Typography variant="h5" component="span">
+            <Typography variant="h6" component="span" color="white">
               Web Development Internship (6 Months)
             </Typography>
             <Typography>FNIT Technologies,Kanpur</Typography>
@@ -103,7 +103,7 @@ export default function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
-            <Typography variant="h5" component="span">
+            <Typography variant="h6" component="span" color="white">
               MERN Stack developer (6 Months)
             </Typography>
             <Typography>Agami Technologies, Noida</Typography>
@@ -126,7 +126,7 @@ export default function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "35px", px: 2 }}>
-            <Typography variant="h5" component="span">
+            <Typography variant="h6" component="span" color="white">
               Frontend Developer- React js (8 Months)
             </Typography>
             <Typography>Sartia Global Pvt Ltd, Noida</Typography>
@@ -145,7 +145,7 @@ export default function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
-            <Typography variant="h5" component="span">
+            <Typography variant="h6" component="span" color="white">
               Freelancing Website Development
             </Typography>
             <Typography>Kanpur</Typography>
