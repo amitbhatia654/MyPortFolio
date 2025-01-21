@@ -42,21 +42,23 @@ export default function Projects() {
               width={"330px"}
               height={"200px"}
             />
-            <h5 className="my-2 fw-bold text-white mt-4">ADMIN DASHBOARD</h5>
+            <h5 className="my-2 fw-bold text-white mt-4">
+              GYM Management System
+            </h5>
             <p className="mt-2 text-white mx-3">
-              Admin Dashboard is a web application designed to help
-              administrators manage and monitor data efficiently. With an
-              intuitive interface and powerful features, it provides real-time
-              insights and seamless control over key operations
+              Developed a comprehensive gym management system for gym
+              administrators to manage member registrations, track membership
+              plans, and members whose plans are expired. Integrated features
+              like trainer assignments and employees.
             </p>
 
             <h5 className="mb-3">
               👉{" "}
               <a
-                href="https://mern-dashboard-orpin.vercel.app/"
+                href="https://gym-mangement-frontend.vercel.app/"
                 className="text-warning"
               >
-                Visit Admin Dashboard
+                Visit GYM Application
               </a>
             </h5>
           </div>
