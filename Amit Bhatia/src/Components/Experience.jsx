@@ -85,7 +85,7 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h6" component="span" color="white">
-              Web Development Internship (6 Months)
+              Web Development Internship
             </Typography>
             <Typography>FNIT Technologies,Kanpur</Typography>
           </TimelineContent>
@@ -104,7 +104,7 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "26px", px: 2 }}>
             <Typography variant="h6" component="span" color="white">
-              MERN Stack developer (6 Months)
+              MERN Stack developer
             </Typography>
             <Typography>Agami Technologies, Noida</Typography>
           </TimelineContent>
@@ -116,7 +116,7 @@ export default function Experience() {
             align="right"
             variant="body2"
           >
-            Jan 2023 - Aug 2024
+            June 2023 - Nov 2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -127,15 +127,15 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "35px", px: 2 }}>
             <Typography variant="h6" component="span" color="white">
-              Frontend Developer- React js (8 Months)
+              Frontend Developer- React js
             </Typography>
-            <Typography>Sartia Global Pvt Ltd, Noida</Typography>
+            <Typography>Sahind Technologies, Noida</Typography>
           </TimelineContent>
         </TimelineItem>
 
         <TimelineItem>
           <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body2">
-            Aug 2024 - Present
+            Nov 2024 - Present
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -148,7 +148,7 @@ export default function Experience() {
             <Typography variant="h6" component="span" color="white">
               Freelancing Website Development
             </Typography>
-            <Typography>Kanpur</Typography>
+            <Typography>Noida</Typography>
           </TimelineContent>
         </TimelineItem>
       </div>
